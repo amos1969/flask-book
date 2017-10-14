@@ -1,3 +1,3 @@
 # Files for the Flask Book
 
-My copies of files as i work through Miguel Grinberg's Book - Flask Web Development
+My copies of files as I work through Miguel Grinberg's Book - Flask Web Development
