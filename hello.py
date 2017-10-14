@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
-from flask.ext.script import Manager
-from flask.ext.bootstrap import Bootstrap
+from flask_script import Manager
+from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
 manager = Manager(app)
