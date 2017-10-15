@@ -6,7 +6,7 @@ from flask import url_for
 from flask_moment import Moment
 from flask_script import Manager
 from flask_bootstrap import Bootstrap
-from flask_wtf import Form
+from flask_wtf import FlaskForm
 from wtforms import StringField
 from wtforms import SubmitField
 from wtforms.validators import Required
@@ -18,7 +18,7 @@ manager = Manager(app)
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 
-class NameForm(Form):
+class NameForm(FlaskForm):
     name = StringField("What is your name?", validators=[Required()])
     submit = SubmitField("Submit")
 
