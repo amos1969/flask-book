@@ -10,6 +10,11 @@
       type="image/x-icon">
 {% endblock %}
 
+{% block scripts %}
+{{ super() }}
+{{ moment.include_moment() }}
+{% endblock %}
+
 {% block title %}Dave's Flasky Page{% endblock %}
 
 {% block navbar %}
