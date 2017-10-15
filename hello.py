@@ -3,7 +3,7 @@ from flask import render_template
 from flask_moment import Moment
 from flask_script import Manager
 from flask_bootstrap import Bootstrap
-from flask.ext.wtf import Form
+from flask_wtf import Form
 from wtforms import StringField
 from wtforms import SubmitField
 from wtforms.validators import Required
